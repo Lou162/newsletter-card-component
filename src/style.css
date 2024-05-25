@@ -2,6 +2,70 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #b3b8d8;
+}
+.newsletter-component {
+  background-color: #ffffff;
+  border-radius: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title_newsletter-component {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 45px;
+}
+.Subtitle_newsletter-component {
+  font-size: 14px;
+  text-align: center;
+}
+::placeholder {
+  color: #b3b8d8;
+  opacity: 1; /* Firefox */
 }
 
+::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: #b3b8d8;
+}
+input[type="button"] {
+  color: black;
+}
+.verification-condition-div {
+  margin-inline: 45px;
+  margin-bottom: 45px;
+  margin-top: 12px;
+}
+.verification-condition-div label {
+  display: block;
+  /* padding-right: 10px; */
+  /* padding-left: 22px; */
+  line-height: 0.7;
+  text-indent: -18px;
+}
+.verification-condition-div label span {
+  vertical-align: middle;
+  /* line-height: 0.7; */
+  font-size: 10px;
+}
+.verification-condition-div input {
+  vertical-align: middle;
+}
+.verification-condition-div input:hover {
+  vertical-align: middle;
+  color: black;
+  cursor: pointer;
+}
 /* write your CSS here */
